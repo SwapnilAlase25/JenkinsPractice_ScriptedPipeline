@@ -25,3 +25,17 @@ node {
                  echo "Testing Java files ...."
               }
   	 }
+
+node {
+        stage('deploy1') {
+                 echo "Deploying C files ...."
+              }
+		
+		stage('deploy2') {
+                 echo "Deploying C++ files ...."            
+        	}
+		
+		stage('deploy3') {
+                 echo "Deploying Java files ...."
+              }
+  	 }
