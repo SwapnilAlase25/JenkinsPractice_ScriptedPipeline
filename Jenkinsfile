@@ -12,7 +12,7 @@ node {
 		 //error "Error statement for checking retry"
         	}
 	}	
-	timestamp{
+	timestamps{
 	stage('build3') {
                  echo "Building Java files ...."
               }
