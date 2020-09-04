@@ -9,7 +9,7 @@ node {
 	retry(3){
 		stage('build2') {
                  echo "Building C++ files ...."
-			error "Error statement for checking retry"
+		 //error "Error statement for checking retry"
         	}
 	}	
 		stage('build3') {
