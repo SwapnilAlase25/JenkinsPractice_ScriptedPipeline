@@ -5,10 +5,13 @@ node {
 		 //sleep 6
               }
 	}	
+	
+	retry(3){
 		stage('build2') {
-                 echo "Building C++ files ...."            
+                 echo "Building C++ files ...."
+			error "Error statement for checking retry"
         	}
-		
+	}	
 		stage('build3') {
                  echo "Building Java files ...."
               }
