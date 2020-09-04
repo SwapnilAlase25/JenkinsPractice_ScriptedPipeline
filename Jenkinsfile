@@ -2,7 +2,7 @@ node {
 	timeout(time: 5 ,unit: 'SECONDS'){
 	stage('build1') {
                  echo "Building C files ...."
-		 sleep 6
+		 //sleep 6
               }
 	}	
 		stage('build2') {
